@@ -7,7 +7,11 @@ using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
+<<<<<<< HEAD
     // it is the jianshu qiao branch now
+=======
+  
+>>>>>>> parent of 2e2f428 (Update Player.cs)
     [SerializeField] public float moveSpeed = 5f;
 
     GameObject currentFloor;
