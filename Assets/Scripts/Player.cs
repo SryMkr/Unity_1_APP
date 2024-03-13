@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
-  
+    // set some fields
     [SerializeField] public float moveSpeed = 5f;
 
     GameObject currentFloor;
