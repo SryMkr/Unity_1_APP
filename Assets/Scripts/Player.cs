@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
-    // Start is called before the first frame update
+  
     [SerializeField] public float moveSpeed = 5f;
 
     GameObject currentFloor;
@@ -19,6 +19,7 @@ public class Player : MonoBehaviour
     Animator anim;
     [SerializeField] GameObject replayButton;
 
+    // Start is called before the first frame update
     void Start()
     {
         Hp = 10;
